@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+
+/* Utility Classes */
+.text-capitalize {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.all-together {
+  /* background: yellow; */
+}
+
+.feedback {
+  border: 2px solid #910000;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background: red;
+}
+
+.card {
+  /* padding: 1rem; */
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  /* position: relative; */
+  /* display: flex; */
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+}
+input[type="text"]:focus {
+}
+
+input[type="submit"]:hover {
+  background: #fff;
+  color: rgba(48, 62, 163);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: azure;
+  text-align: center;
+}
+
+.results {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.results div {
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
