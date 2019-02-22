@@ -64,12 +64,16 @@ input {
   font-size: 1.5rem;
 }
 input[type="text"]:focus {
+  border: none;
+  outline: none;
+  border: 2px solid rgba(48, 62, 163);
 }
 
 input[type="submit"] {
   background: #fff;
   color: rgba(48, 62, 163);
   border: none;
+  outline: none;
 }
 
 input[type="submit"]:hover {
@@ -80,8 +84,9 @@ input[type="submit"]:hover {
 }
 
 ::placeholder {
-  color: azure;
+  color: #52d4ff;
   text-align: center;
+  font-weight: bold;
 }
 
 .results {

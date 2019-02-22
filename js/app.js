@@ -34,7 +34,7 @@ class Display {
     this.results.classList.add("showItem");
     this.cityName.textContent = name;
     this.cityCountry.textContent = country;
-    this.cityTemp.textContent = temp;
+    this.cityTemp.textContent = Math.floor(temp);
     this.cityHumidity.textContent = humidity;
     this.cityIcon.src = `http://openweathermap.org/img/w/${icon}.png`;
   }
